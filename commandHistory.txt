@@ -1,0 +1,182 @@
+    1  git --version
+    2  pwd
+    3  git clone git@github.com:Oljas-Dev/121225-wde.git
+    4  ls -al
+    5  cd 121225-wde/
+    6  ls -al
+    7  cat README.md 
+    8  git config --global user.name oljas
+    9  git config --global user.email medetbaevoljas@gmail.com
+   10  git config --global -l
+   11  ls -al
+   12  git@github.com:Oljas-Dev/tutors-landing.git
+   13  git clone git@github.com:Oljas-Dev/tutors-landing.git
+   14  ls -al
+   15  cd tutors-landing/
+   16  ls -al
+   17  git clone git@github.com:Oljas-Dev/tutors-landing.git
+   18  cd tutors-landing/
+   19  ls -al
+   20  npm create vite@latest
+   21  git init
+   22  ls -al
+   23  git clone git@github.com:Oljas-Dev/git_intro.git
+   24  ls -al
+   25  git clone github.com:Oljas-Dev/git_intro.git
+   26  git status
+   27  git clone github.com:Oljas-Dev/git_intro.git
+   28  git remote add origin git@github.com:Oljas-Dev/git_intro.git
+   29  git init
+   30  git remote add origin git@github.com:Oljas-Dev/git_intro.git
+   31  echo "# git_intro" >> README.md
+   32  git status
+   33  git add .
+   34  git status
+   35  git add .
+   36  git commit -m "first commit"
+   37  ls -al
+   38  cd git_intro/
+   39  ls -al
+   40  cd ..
+   41  rm -rf git_intro/
+   42  ls -al
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit -m 'Initial commit'
+   47  git push -u origin main
+   48  git remote add origin git@github.com:Oljas-Dev/git_intro.git
+   49  git branch -M main
+   50  git push -u origin main
+   51  git status
+   52  git add .
+   53  git commit -m 'Second commit'
+   54  git push
+   55  git init
+   56  ls -al
+   57  git init
+   58  ls -al
+   59  git branch
+   60  git branch -M main
+   61  git branch
+   62  git branch gitignore
+   63  git checkout -b gitignore
+   64  git branch
+   65  echo > .gitignore
+   66  ls -al
+   67  nano .gitignore 
+   68  cat .gitignore 
+   69  git status
+   70  git add .
+   71  git status
+   72  git remote add origin git@github.com:Oljas-Dev/git-branch.git
+   73  git push
+   74  git push --set-upstream origin gitignore
+   75  git checkout main
+   76  git switch main
+   77  git branch
+   78  git log
+   79  git status
+   80  git checkout main
+   81  git checkout 'main'
+   82  git checkout -b main
+   83  git branch
+   84  git remote add origin git@github.com:Oljas-Dev/git-branch.git
+   85  git log
+   86  git status
+   87  echo "# git-branch" >> README.md
+   88  ls -al
+   89  git rm --cached .
+   90  git rm --cached README.md
+   91  git rm --cached .gitignore 
+   92  git status
+   93  git add README.md
+   94  git commit -m 'readme.md'
+   95  git push
+   96  git branch -M main
+   97  git push -u origin main
+   98  git log
+   99  git status
+  100  git branch gitignore
+  101  git checkout gitignore
+  102  git add .
+  103  git commit -m 'gitignore'
+  104  git push -u origin gitignore
+  105  ssh ec2-user@linux.itcareerhub.de
+  106  git clone 200~git@github.com:Oljas-Dev/tutor-web-card.git
+  107  git clone 200~https://github.com/Oljas-Dev/tutor-web-card.git
+  108  git clone https://github.com/Oljas-Dev/tutor-web-card.git
+  109  git config --global user.name Oljas Medetbaev
+  110  git config --global user.email medetbaevoljas@gmail.com
+  111  ls -al
+  112  rm -rf .git
+  113  ls -al
+  114  wsl --unregister docker-desktop
+  115  wsl --unregister docker-desktop-data
+  116  rm -rf ~/.docker
+  117  ls -al
+  118  pwd
+  119  clear
+  120  ssh ec2-user@linux.itcareerhub.de
+  121  pwd
+  122  scp ec2-user@linux.itcareerhub.de:/opt/121225-wde/OMedetbaev/permission_checker.sh .
+  123  clear
+  124  git clone git@github.com:Oljas-Dev/merge-branches-test.git
+  125  cd merge-branches-test
+  126  ls -al
+  127  touch README.md
+  128  ls -al
+  129  nano README.md 
+  130  cat README.md 
+  131  git status
+  132  touch .gitignore
+  133  nano .gitignore
+  134  git branch feature
+  135  git checkout branch
+  136  git checkout -d branch
+  137  git checkout -b branch
+  138  git branch -m feature
+  139  git checkout main
+  140  git branch
+  141  git branch -v
+  142  git checkout main
+  143  git checkout -b main
+  144  git status
+  145  git commit -am 'Initial commit'
+  146  git add .
+  147  git status
+  148  git commit -m 'Initial commit'
+  149  git push -u origin main
+  150  git checkout feature
+  151  git checkout -b feature
+  152  ls -al
+  153  nano README.md 
+  154  nano .gitignore
+  155  git status
+  156  git add .
+  157  git commit -m 'Commit from feature branch'
+  158  git push
+  159  git push --set-upstream origin feature
+  160  git checkout main
+  161  git merge feature
+  162  git status
+  163  git push
+  164  git checkout feature
+  165  nano README.md 
+  166  git status
+  167  git add .
+  168  git commit -m "Wrong commit name"
+  169  git log --oneline
+  170  git commit --amend 'Edited commit name with --amend'
+  171  git commit --amend
+  172  git status
+  173  git log --oneline
+  174  git push
+  175  git checkout main
+  176  git merge feature
+  177  git push
+  178  git status
+  179  git log --oneline
+  180  touch commandHistory.txt
+  181  nano commandHistory.txt 
+  182  history >> commandHistory.txt 
